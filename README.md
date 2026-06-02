@@ -1,10 +1,10 @@
-Employee Absenteeism Analysis & Prediction
+# Employee Absentees Analysis & Prediction 
 
-An end-to-end data science project written in Python (Jupyter Notebook) designed to analyze, visualize, and model workforce absenteeism patterns. This project aims to help Human Resource departments uncover key drivers of absenteeism and implement proactive retention strategies.
+An end-to-end data science project written in Python (Jupyter Notebook) designed to analyze, visualize, and model workforce absenteeism patterns. This project leverages an optimization framework to help Human Resource departments uncover key drivers of absenteeism and implement proactive retention strategies.
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 * [Project Overview](#-project-overview)
 * [Key Features & Workflow](#-key-features--workflow)
 * [Tech Stack](#%EF%B8%8F-tech-stack)
@@ -16,7 +16,7 @@ An end-to-end data science project written in Python (Jupyter Notebook) designed
 ## Project Overview
 Employee absenteeism can drastically hinder organizational productivity. This project processes historical employee records to:
 1. Discover demographic and professional patterns contributing to lost work hours.
-2. Build statistical or machine learning models to forecast potential absenteeism trends.
+2. Build data-driven pipelines to classify or forecast potential absenteeism trends.
 
 ---
 
@@ -34,14 +34,14 @@ The Python code in the Jupyter Notebook covers the entire data pipeline step-by-
 * **Correlation Matrices:** Finding hidden relationships between social habits (e.g., smoking, drinking), family factors (children, pets), and missed hours.
 * **Categorical Breakdowns:** Visualizing absenteeism rates across distinct organizational departments or medical reasons.
 
-### 3. Predictive Modeling (If Applicable)
-* **Dataset Splitting:** Partitioning data into standard training and testing subsets.
-* **Model Implementation:** Running predictive frameworks (such as Logistic Regression, Random Forests, or XGBoost) to classify or regress absenteeism risk.
-* **Performance Assessment:** Tracking project validity via confusion matrices, classification reports, and ROC-AUC curves.
+### 3. Predictive Modeling
+* **Data Splitting:** Partitioning datasets into clean training and testing matrices via scikit-learn metrics.
+* **The `predictive_praba` Framework:** Implementing the custom core modeling function or class architecture to cleanly manage pipeline inputs, handle numerical variances, and handle the data distribution constraints.
+* **Performance Assessment:** Tracking project validity via regression errors or classification metrics to evaluate overall forecasting stability.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * **Language:** Python 3.x
 * **Environment:** Jupyter Notebook
@@ -52,17 +52,14 @@ The Python code in the Jupyter Notebook covers the entire data pipeline step-by-
 
 ---
 
-## 📊 Dataset Description
+## Dataset Description
 
 The analysis primarily evaluates the following features:
 * **Demographics:** Age, Education level, Children, Pets, Body Mass Index (BMI).
-* **Workplace Metrics:** Distance from residence to work, Service time, Daily work load average, Transportation expense.
+* **Workplace Metrics:** Distance from residence to work, Service time, Daily workload average, Transportation expense.
 * **Absentee Factors:** Reason for absence (ICD classifications), Month of absence, Day of the week, Absenteeism time in hours (Target metric).
 
 ---
 
-## 🔮 Future Scope
+## Future Scope
 * **Deep Learning Integration:** Testing multi-layer neural networks for complex absenteeism classification tasks.
-* **Dashboard Deployment:** Building a local interactive web app using `Streamlit` or `Dash` for HR managers to dynamically test employee risk inputs.
-
-
